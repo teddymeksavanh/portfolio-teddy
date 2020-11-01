@@ -1,13 +1,20 @@
-body {
+body{
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-family: 'space-mono';
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.primary-bg-color{
+	background-color: #5651bf;
+}
+
+/** FONTS **/
+
+.space-mono{
+	font-family: 'space-mono';
+	line-height: 4rem;
+}
+
+@font-face{
+	font-family: 'space-mono';
+	src: url("./fonts/space-mono.ttf");
 }
